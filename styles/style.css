@@ -1,47 +1,61 @@
 html {
-  /* px means "pixels". The base font size is now 10 pixels high */
-  font-size: 15px;
-  /* Replace PLACEHOLDER with the font-family property value you got from Google Fonts */
-    font-family: "Comic Relief", system-ui;
-
-}
-
-h1 {
-  margin: 0;
-  padding: 20px 0;
-  color: #f03dc9;
-  text-shadow: 3px 3px 1px black;
-  text-align: center;
-}
-
-p,
-li {
   font-size: 16px;
-  line-height: 2;
-  letter-spacing: 1px;
-  
-}
-
-html {
-    background-color: #f03dc9;
-    color: aqua;
+  font-family: 'Georgia', serif;
+  background-color: #333;
+  color: #eee;
 }
 
 body {
-  width: 600px;
+  width: 800px;
   margin: 0 auto;
-  background-color: #ff9500;
-  padding: 0 20px 20px 20px;
-  border: 5px solid black;
+  background-color: #222;
+  padding: 20px;
+  border: 1px solid #555;
 }
 
-img {
-    display: block;
-  margin: 0 auto;
-  max-width: 100%;
+h1, h2 {
+  text-align: center;
+  color: #eee;
+  text-shadow: 1px 1px 2px #000;
 }
 
-.done {
-    color: darkseagreen;
-    text-decoration: line-through solid black 2px;
+#case-file, #clues, #minigame, #arrest {
+  background-color: #444;
+  padding: 15px;
+  margin-bottom: 20px;
+  border: 1px solid #666;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  padding: 5px 0;
+}
+
+button {
+  padding: 10px 15px;
+  background-color: #555;
+  color: #eee;
+  border: 1px solid #777;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #666;
+}
+
+button:disabled {
+  background-color: #444;
+  cursor: not-allowed;
+}
+
+input[type="text"] {
+  padding: 10px;
+  width: 200px;
+  background-color: #555;
+  color: #eee;
+  border: 1px solid #777;
 }

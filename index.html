@@ -3,40 +3,33 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width" />
-    <title>My test page</title>
+    <title>Detective Deduction Game</title>
     <link href="styles/style.css" rel="stylesheet" />
-
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Comic+Relief:wght@400;700&display=swap" rel="stylesheet">
-
     <script async src="scripts/main.js"></script>
-    
   </head>
-  
   <body>
-    <img src="images/cat.jpeg" alt="My test image" />
-  
+    <h1>Detective Deduction Game</h1>
 
+    <div id="case-file">
+      <h2>Case File</h2>
+      <p id="plot"></p>
+    </div>
 
-    <h1>eat things</h1>
-    <p>It'd be beneficial to list the reasons for that:</p>
-    <ol>
-      <li>to</li>
-      <li>grow</li>
-      <li>fat</li>
-    </ol>
+    <div id="clues">
+      <h2>Clues</h2>
+      <ul id="clue-list"></ul>
+    </div>
 
-<a href="https://www.marthastewart.com/338185/basic-pancakes">Eating all the pancakes.</a>
+    <div id="minigame">
+      <h2>Investigation</h2>
+      <button id="search-button">Search for Clues</button>
+      <p>Searches remaining: <span id="searches-remaining"></span></p>
+    </div>
 
-<button>Change user</button>
-
+    <div id="arrest">
+      <h2>Make an Arrest</h2>
+      <input type="text" id="arrest-input" placeholder="Enter mastermind's name" />
+      <button id="arrest-button">Arrest</button>
+    </div>
   </body>
-
-
-
-
-
-
-
 </html>
